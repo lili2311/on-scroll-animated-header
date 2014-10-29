@@ -1,0 +1,36 @@
+$footer-height: 4em;
+$black:#333;
+$white:#fcfcfc;
+$pink:#F58065;
+$grey:#3c3c3c;
+$light-pink:#FEEAD5;
+$padding-value:.75em;
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+  min-height:100%;
+}
+header {
+  background:$pink;
+  padding:$padding-value;
+  height:4em;
+}
+#main {
+  padding:$padding-value;
+  padding-bottom:$footer-height;
+  background:$light-pink;
+}
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:$footer-height;
+  background:$grey;
+}
+section {
+  max-width:70%;
+  margin: 0 auto;
+}
